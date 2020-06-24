@@ -1,0 +1,19 @@
+#!/bin/bash
+#
+#SBATCH --job-name=gene20_gin
+#SBATCH --output=res20_gintest.txt
+#SBATCH --ntasks-per-node=40
+#SBATCH --nodes=1
+#SBATCH --time=30:00:00
+#SBATCH -p long-40core
+
+module load shared
+module load matlab/2019a
+
+cd /gpfs/home/miloska/GIN  
+
+mkdir -p $SCRATCH/$SLURM_JOB_ID
+
+matlab -nodisplay < GIN_20.m
+
+rm -rf $SCATCH/$SLURM_JOB_ID

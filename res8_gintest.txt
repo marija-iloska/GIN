@@ -1,0 +1,125 @@
+mkdir: cannot create directory ‘/307675’: Permission denied
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+              R2019a Update 4 (9.6.0.1150989) 64-bit (glnxa64)
+                               June 26, 2019
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> Starting parallel pool (parpool) using the 'local' profile ...
+[Warning: The system time zone setting, 'US/Eastern', does not specify a single
+time zone unambiguously. It will be treated as 'America/New_York'. See the <a
+href="matlab:doc('datetime.TimeZone')">datetime.TimeZone property</a> for
+details about specifying time zones.] 
+[> In verifyTimeZone (line 34)
+  In datetime (line 543)
+  In parallel.internal.cluster.FileSerializer>iLoadDate (line 342)
+  In parallel.internal.cluster.FileSerializer/getFields (line 100)
+  In parallel.internal.cluster.CJSSupport/getProperties (line 260)
+  In parallel.internal.cluster.CJSSupport/getJobProperties (line 491)
+  In parallel.internal.cluster.CJSJobMixin/hGetProperty (line 108)
+  In parallel.internal.cluster.CJSJobMethods.setJobTerminalStateFromCluster (line 179)
+  In parallel.internal.cluster.CJSJobMixin/hSetTerminalStateFromCluster (line 160)
+  In parallel.cluster.CJSCluster/hGetJobState (line 411)
+  In parallel.internal.cluster.CJSJobMixin/hGetStateEnum (line 144)
+  In parallel.Job/get.StateEnum (line 238)
+  In parallel.Job/get.State (line 230)
+  In parallel.internal.customattr.CustomGetSet>iVectorisedGetHelper (line 128)
+  In parallel.internal.customattr.CustomGetSet>@(a,b,c)iVectorisedGetHelper(obj,a,b,c) (line 102)
+  In parallel.internal.customattr.CustomGetSet/doVectorisedGet (line 103)
+  In parallel.internal.customattr.CustomGetSet/hVectorisedGet (line 76)
+  In parallel.internal.customattr.GetSetImpl>iAccessProperties (line 322)
+  In parallel.internal.customattr.GetSetImpl>iGetAllPropertiesVec (line 264)
+  In parallel.internal.customattr.GetSetImpl.getImpl (line 133)
+  In parallel.internal.customattr.CustomGetSet>iHetFunGetFunction (line 154)
+  In parallel.internal.customattr.CustomGetSet>@(o)iHetFunGetFunction(o,props) (line 139)
+  In parallel.internal.cluster.hetfun (line 46)
+  In parallel.internal.customattr.CustomGetSet>iHetFunGetProperty (line 139)
+  In parallel.internal.customattr.CustomGetSet/get (line 38)
+  In parallel.internal.pool.InteractiveClient/pRemoveOldJobs (line 476)
+  In parallel.internal.pool.InteractiveClient/start (line 317)
+  In parallel.Pool>iStartClient (line 796)
+  In parallel.Pool.hBuildPool (line 585)
+  In parallel.internal.pool.doParpool (line 18)
+  In parpool (line 98)] 
+Connected to the parallel pool (number of workers: 32).
+
+ans = 
+
+ Pool with properties: 
+
+            Connected: true
+           NumWorkers: 32
+              Cluster: local
+        AttachedFiles: {}
+    AutoAddClientPath: true
+          IdleTimeout: 30 minutes (30 minutes remaining)
+          SpmdEnabled: true
+
+>> >> Elapsed time is 36.858978 seconds.
+Elapsed time is 36.738367 seconds.
+Elapsed time is 36.864863 seconds.
+Elapsed time is 36.870510 seconds.
+Elapsed time is 36.865949 seconds.
+Elapsed time is 36.904092 seconds.
+Elapsed time is 36.925172 seconds.
+Elapsed time is 37.083213 seconds.
+Elapsed time is 37.064768 seconds.
+Elapsed time is 37.289103 seconds.
+Elapsed time is 37.163760 seconds.
+Elapsed time is 37.255761 seconds.
+Elapsed time is 37.595764 seconds.
+Elapsed time is 37.557947 seconds.
+Elapsed time is 37.361865 seconds.
+Elapsed time is 38.784733 seconds.
+Elapsed time is 38.327425 seconds.
+Elapsed time is 38.806643 seconds.
+Elapsed time is 38.686338 seconds.
+Elapsed time is 38.755633 seconds.
+Elapsed time is 38.309027 seconds.
+Elapsed time is 38.360974 seconds.
+Elapsed time is 38.694379 seconds.
+Elapsed time is 38.489473 seconds.
+Elapsed time is 38.397675 seconds.
+Elapsed time is 38.417189 seconds.
+Elapsed time is 38.599838 seconds.
+Elapsed time is 38.455045 seconds.
+Elapsed time is 39.033994 seconds.
+Elapsed time is 39.364827 seconds.
+Elapsed time is 38.963949 seconds.
+Elapsed time is 41.789633 seconds.
+Elapsed time is 36.338848 seconds.
+Elapsed time is 36.474360 seconds.
+Elapsed time is 36.948244 seconds.
+Elapsed time is 36.239412 seconds.
+Elapsed time is 36.260735 seconds.
+Elapsed time is 36.541324 seconds.
+Elapsed time is 36.133203 seconds.
+Elapsed time is 37.782052 seconds.
+Elapsed time is 37.810316 seconds.
+Elapsed time is 37.661478 seconds.
+Elapsed time is 36.078726 seconds.
+Elapsed time is 36.452809 seconds.
+Elapsed time is 37.920088 seconds.
+Elapsed time is 37.077152 seconds.
+Elapsed time is 37.017268 seconds.
+Elapsed time is 38.683763 seconds.
+Elapsed time is 36.303632 seconds.
+Elapsed time is 36.436947 seconds.
+Elapsed time is 36.304696 seconds.
+Elapsed time is 37.821867 seconds.
+Elapsed time is 36.492245 seconds.
+Elapsed time is 37.399840 seconds.
+Elapsed time is 37.806149 seconds.
+Elapsed time is 36.532831 seconds.
+Elapsed time is 37.699579 seconds.
+Elapsed time is 37.908763 seconds.
+Elapsed time is 37.146264 seconds.
+Elapsed time is 37.714816 seconds.
+Elapsed time is 37.862542 seconds.
+Elapsed time is 37.958944 seconds.
+Elapsed time is 39.810027 seconds.
+Elapsed time is 36.894932 seconds.
